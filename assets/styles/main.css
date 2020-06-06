@@ -1,0 +1,233 @@
+body,html{
+    overflow-x:hidden;
+    padding:0%;
+    margin:0%;
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.b{
+    font-size:20px;
+    font-weight: bold;
+}
+.svg{
+    height:20px;
+    float:right;
+    width:200px;
+}
+.card{
+    border:none;
+   text-align:center;
+}
+.nav-link{
+    font-size:17px;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+    font-weight:bolder;
+    text-decoration:none;
+}
+.btn-secondary{
+    background:transparent;
+    color:silver;
+    width:200px;
+}
+.btn-secondary:hover{
+    background:turquoise;
+    color:white;
+}
+#sec{
+    
+    background:transparent;
+    color:white;
+    width:200px;
+    border:1px solid white;
+    margin:20px;
+}
+.log{
+    background:transparent;
+}
+.log:hover{
+background:black;
+width:30px;
+border:1px solid;
+}
+#sec:hover{
+    background:white;
+    color:black;
+}
+.section1{
+    background:rgb(3, 1, 53);
+}
+.section3{
+    background:rgb(3, 1, 53);
+    margin:20px;
+    padding:30px;
+    color:white;
+    letter-spacing:0.5rem;
+}
+
+.mr{
+    border:1px solid black;
+    width:100px;
+}
+.sew{
+    position:absolute;
+    right:40%;
+}
+.h4{
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing:5%;
+}
+@media only screen and (min-width:720px){
+    
+    .f{
+        position:relative;
+        left:650px;
+        top:200px;
+    }
+    .mob{
+        display:none;
+    }
+    .svg{
+        height:20px;
+        float:right;
+        width:350px;
+    }
+    
+    .content{
+        margin:10px;
+        color:white;
+    }
+    .h4{
+        margin-top:150px;
+        font-size:40px;
+        color:white;
+    }
+    .svg1{
+        display:none;
+    }
+    .svg2{
+        position:absolute;
+        right:97%;
+        top:50%;
+    }
+    .svg3{
+        display:none;
+    }
+    .h2{
+        text-align:left;
+    }
+    .mr{
+        display:none;
+    }
+    .lob{
+        float:left;
+    }
+    .sew{
+        float:right;
+        position:absolute;
+        left:65%;
+        top:180%;
+    }
+    .sew2{
+        display:none;
+    }
+    
+}
+@media only screen and (min-width:768px) {
+
+    .f{
+        position:relative;
+        left:650px;
+        top:200px;
+    }
+    .mob{
+        display:none;
+    }
+    .svg{
+        height:20px;
+        float:right;
+        width:350px;
+    }
+    
+    .content{
+        margin:10px;
+        color:white;
+    }
+    .h4{
+        margin-top:150px;
+        font-size:40px;
+        color:white;
+    }
+    .svg1{
+        display:none;
+    }
+    .svg2{
+        position:absolute;
+        right:97%;
+        top:50%;
+    }
+    .svg3{
+        display:none;
+    }
+    .h2{
+        text-align:left;
+    }
+    .mr{
+        display:none;
+    }
+    .lob{
+        float:left;
+    }
+    .sew{
+        float:right;
+        position:absolute;
+        left:65%;
+        top:180%;
+    }
+    .sew2{
+        display:none;
+    }
+}
+@media screen and (max-width:732px){
+    .f{
+        width:100%;
+    }
+    .content{
+        color:white;
+        text-align:center;
+    }
+     .svg{
+         display:none;
+     }
+     .svg2{
+         display:none;
+     }
+     .des{
+         display:none;
+     }
+     .svg3{
+        position:absolute;
+        left:73%;
+        top:60%;
+     }
+     .svg1{
+         position:absolute;
+         bottom:55%;
+     }
+     .sew{
+         display:none;
+     }
+     .sew2{
+         float:right;
+         position:absolute;
+        left:50%;
+        top:270%;
+     }
+}
